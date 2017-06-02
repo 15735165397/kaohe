@@ -4421,14 +4421,17 @@
     let m=0;
     xxk[2].style.display='block'
     xzj[0].style.color='#ff7600'
+    xzj[0].style.borderColor="#ff7600"
     for(let n=0;n<3;n++){
          xzj[n].onmouseover=function(){
             for(let l=0;l<3;l++){
                 xxk[l].style.display='none'    
             }
             xzj[m].style.color='#000'
+            xzj[m].style.borderColor="#F5F5F5"
             xxk[m].style.display='none';
             xzj[n].style.color='#ff7600'
+            xzj[n].style.borderColor="#ff7600"
             xxk[n].style.display='block';
             m=n
         }

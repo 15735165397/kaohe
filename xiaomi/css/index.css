@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-03-23 22:42:35
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-06-01 23:37:21
+* @Last Modified time: 2017-06-02 10:46:32
 */
 
 
@@ -845,9 +845,7 @@ input{
 }
 
 /* 搭配开始 */
-.xuanxiang{
-	/* display: none */
-}
+
 .xiak .wezl{
 	width: 1226px;
 	height: 58px;
@@ -872,6 +870,10 @@ input{
 .xiak .wezl .dpy ul li{
 	float: right;
 	margin-left: 20px;
+}
+.xuanzejian li{
+	height: 60px;
+	border-bottom: 3px solid #F5F5F5;
 }
 .xiak .dapei{
 	width: 1226px;
